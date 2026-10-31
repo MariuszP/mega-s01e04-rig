@@ -1,8 +1,9 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
+closed: 2026-10-31
 ---
 
 # Morning digest
@@ -77,3 +78,16 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issues
+
+| # | Issue | Blocked by |
+|---|-------|-----------|
+| 1 | [Kontrakt danych podsumowania](https://github.com/MariuszP/mega-s01e04-rig/issues/1) | — |
+| 2 | [Odczyt i agregacja dziennika nocy](https://github.com/MariuszP/mega-s01e04-rig/issues/2) | #1 |
+| 3 | [Strona podsumowania nocy](https://github.com/MariuszP/mega-s01e04-rig/issues/3) | #1 |
+| 4 | [API JSON podsumowania nocy](https://github.com/MariuszP/mega-s01e04-rig/issues/4) | #1 |
+| 5 | [Linki do nocy na stronie statusu](https://github.com/MariuszP/mega-s01e04-rig/issues/5) | #1 |
+| 6 | [Testy tras podsumowania](https://github.com/MariuszP/mega-s01e04-rig/issues/6) | #1 |
+| 7 | [Publiczny podgląd dla recenzenta](https://github.com/MariuszP/mega-s01e04-rig/issues/7) | #2, #3, #4, #5, #6 |
+| 8 | [Usunięcie znacznika po recenzji i archiwizacja planu](https://github.com/MariuszP/mega-s01e04-rig/issues/8) | #7 |
